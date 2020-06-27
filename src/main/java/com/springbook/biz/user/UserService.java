@@ -1,11 +1,9 @@
 package com.springbook.biz.user;
 
-import com.springbook.biz.user.UserVO;
-
 public interface UserService {
 
 	// CRUD 기능의 메소드 규현
 	// 회원 등록
-	UserVO getUser(UserVO vo);
+	public UserVO getUser(UserVO vo);
 
 }

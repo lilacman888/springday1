@@ -11,7 +11,7 @@ public class JDBCUtil {
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			
-			return DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "totoro", "totoro123");
+			return DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "spring", "spring123");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

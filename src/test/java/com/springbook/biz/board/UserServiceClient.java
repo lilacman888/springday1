@@ -23,11 +23,11 @@ public class UserServiceClient {
 		UserVO user = userService.getUser(vo);
 		System.out.println("user="+user);
 		
-//		if(user != null) {
-//			System.out.println(user.getName() + "님 환영합니다.");
-//		} else {
-//			System.out.println("로그인 실패");
-//		}
+		if(user != null) {
+			System.out.println(user.getName() + "님 환영합니다.");
+		} else {
+			System.out.println("로그인 실패");
+		}
 		
 		// 4.Spring 컨테이너 종료
 		container.close();
